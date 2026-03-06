@@ -1,2 +1,2 @@
-# guess2026
-projeto de games 2° áudio e vídeo 2026
+# jogo de adivinhação
+disciplina projeto de games, ministrada para a turma do 2° ano do curso técnico integrado em áudio e vídeo.  instituto federal de goiás. câmpus cidade de goiás - 2026
