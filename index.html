@@ -8,7 +8,7 @@
     <style>
       .CorpoDaPagina{
         font-family: 'Times New Roman', Times, serif;
-        background-color: maroon;
+        background-color: rgb(83, 33, 33);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -21,12 +21,18 @@
       }
       .container{
           text-align: center;
-          background-color: midnightblue;
+          background-color: rgb(99, 5, 5);
           padding: 20px;
           border-radius: 10px;
-          box-shadow: 0px 0px 10px rgb(18, 6, 73)
+          box-shadow: 0px 0px 10px rgb(51, 4, 4)
       }
 
+      input[type="number"]{
+        padding: 10px;
+        font-size: 16px;
+        width: 50px;
+        margin-bottom: 10px;
+      }
     </style>
   
 
@@ -37,10 +43,11 @@
 
     <div class="container">
 
-    <h1>&#128523; jogo de adivinhaçao &#128269;</h1>
+    <h1>&#127744; jogo de adivinhaçao &#127846;</h1>
     <p>tente adivinhar o numero sercreto entre 1 e 100 &#9757;&#65039;&#129299;</p>
 
     <input type="number" id="TXTpalpite" min="1" max="100"/>
+    <button id="BTNadivinhar"></button>
 
   </body>
 
