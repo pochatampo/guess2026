@@ -78,7 +78,12 @@
       let caixaDeTexto = document.getElementById('TXTPalpite');
       let chuteDoJogador = parseInt(caixaDeTexto.value);
       
-      console.log(chuteDoJogador);
+      if( isNaN(chuteDoJogador) ){
+        console.log('numero invalido!!');
+      }else{
+        console.log('numero valido: +chuteDoJogador');
+      }
+      
 
       }
 
