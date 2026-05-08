@@ -69,7 +69,7 @@
   </body>
 
   <script> 
-    let numeroSecreto = 9;
+    let numeroSecreto = Math.floor(Math.random() * 100);
 
       function verificarPalpite(){
         //-------------------------
@@ -90,7 +90,7 @@
       if(chuteDoJogador === numeroSecreto){
         dvMensagem.textContent = 'congratulations! voce acertou :3 - ' +numeroSecreto;
       }else{
-        dvMensagem.textContent = 'ehh sorry! voce perdeu :c';
+        dvMensagem.textContent = 'ehh sorry! voce errou :c';
       }
       
 
